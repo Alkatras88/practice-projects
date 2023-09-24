@@ -8,6 +8,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <script src="/login.js"></script>
+
     <title>Document</title>
   </head>
 
@@ -27,8 +29,12 @@
 
       <div class="input-group span-2">
         <span class="material-symbols-outlined"> key </span>
-        <label class="input-label"> Password:</label>
+        <label class="input-label" id="password"> Password:</label>
+
         <input type="password" class="input-text" placeholder="Your password" />
+
+        <input id="btn-check" type="checkbox" onclick="btnCheck()" /> Show
+        Password
       </div>
       <div class="input-group">
         <button class="input-button input-button-primary">Sign In</button>

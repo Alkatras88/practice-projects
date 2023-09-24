@@ -33,7 +33,6 @@ button {
 }
 
 .login-form {
-  display: grid;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -83,4 +82,9 @@ button {
 .material-symbols-outlined {
   position: fixed;
   left: 9px;
+}
+
+#btn-check {
+  position: relative;
+  width: auto;
 }
